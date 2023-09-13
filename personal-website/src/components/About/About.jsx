@@ -1,12 +1,21 @@
 import React from 'react'
-
+import './About.css';
+import AboutMe from '../About/AboutMe'
+import DetailsAboutMe from './DetailsAboutMe';
+import LearnMore from './LearnMore'
 const About =() => {
-  return (
+return (
     <div>
-      <h1>Full-Stack Software Developer</h1>
-      <p>HI THERE! I'M,   Thabisile Skhosana. I am  a skilled full-stack developer who possesses a wide range of technical talents. I have a fever to turn an idea into functional, user-friendly websites and apps, and I believe am a valuable asset in the ever-evolving world of technology. </p>
+      <h1 className='intro'>Hi, I am <span style={{color:'green'}}>Thabisile</span></h1>
+      <AboutMe/>
+      <DetailsAboutMe/>
+      <LearnMore/>
     </div>
   )
 }
 
 export default About
+
+
+
+

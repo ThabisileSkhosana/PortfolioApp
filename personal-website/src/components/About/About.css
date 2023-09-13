@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+
+body{font-size: 10px; color: rgb(126, 120, 120);}
+
+.intro{
+    position: relative;
+    left: 20rem;
+    top: 10rem;
+}
+
+.aboutMe{
+    font-size: 25px;
+    position: relative;
+    left: 20rem;
+    top: 10.5rem;
+}
+
+.detailesAboutMe{
+    color:#929090 ;
+    position: relative;
+    top: 11rem;
+    left: 20rem;
+    width: 23.2rem;
+}
+
+.learnMore{
+    border-radius: 8px;
+    border: none;
+    background-color: green ;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    left: 20rem;
+    top: 35rem;
+}

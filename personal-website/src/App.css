@@ -1,33 +1,11 @@
 img {
-    border-radius: 50%;
-    border: 5px solid white;
-    width: 370px;
-    height: 390px;
     background-image: url(//images03.nicepage.com/c461c07…/fe55cfc…/ewrrr-min.jpg);
-    background-position: 50% 50%;
-    border-width: 8px;
-    background-repeat: no-repeat;
-    margin-left: 35%;
-    margin-top: 100px;
-   
+    height: 30rem;
+    max-width: 60%;
+    position: fixed;
+    left: 50.8rem;
+    top: 8rem;
+    box-shadow: 15px 15px 5px rgb(154, 149, 149); 
 }
 
-@media (max-width: 767px) {
-    img {
-        width: 50%;
-        /* Make the image 100% width of the container */
-        height: 50%;
-        /* Allow the height to adjust proportionally */
-        margin: 20px auto;
-        /* Center the image horizontally and add some margin */
-        /* border-radius: 0;  Remove border-radius for mobile */
-        /* border-width: 0; Remove the border for mobile */
-        border-radius: 50%;
-        border: 5px solid white;
-        background-position: 50% 50%;
-        border-width: 8px;
-        background-repeat: no-repeat;
-        margin-left: 13%;
-        margin-top: 200px;
-    }
-}
+
